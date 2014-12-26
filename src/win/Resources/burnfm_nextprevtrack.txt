@@ -1,0 +1,21 @@
+var nextPrevTrack = function(delta)
+{
+	if (delta === 0) {
+		return "zero invalid";
+	}
+	var tracks = document.getElementsByTagName("li");
+	for (i = 0; i < tracks.length; i++)
+	{
+		if (tracks[i].id === "addhere")
+		{
+			var index = delta + i;
+			if (delta < 0) index--;
+			if (((index < 0) || (index >= tracks.length)) || (tracks[index].id.indexOf("song_") != 0)) {
+				return "out of bounds";
+			}
+
+			tracks[index].getElementsByClassName("title")[0].click();
+			return "";
+		}
+	}
+};

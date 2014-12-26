@@ -1,0 +1,16 @@
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioConsoleTest.exe.config
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioConsoleTest.exe
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioConsoleTest.pdb
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioApi.dll
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioApi.pdb
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\obj\x86\Debug\CoreAudioConsoleTest.exe
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\obj\x86\Debug\CoreAudioConsoleTest.pdb
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioConsoleTest.exe.config
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\obj\x86\Debug\CoreAudioConsoleTest.exe
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\obj\x86\Debug\CoreAudioConsoleTest.pdb
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioConsoleTest.exe
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioConsoleTest.pdb
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioApi.dll
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\bin\Debug\CoreAudioApi.pdb
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+<br><br><br>If you want to install manually:
+<ul>
+<li>Do everything that the installer does (creating shortcuts is optional).
+<li>You can get a ZIP of program files <a href="http://www.mute.fm/mutefm.zip">here</a>.</li>
+<li>You can install Flash from <a href="http://get.adobe.com/flashplayer/">here</a>.  Choose to install the Firefox version.</li>
+<li>Instead of modifying the registry, you can tell mute.fm to run on startup by choosing Options->Run On Startup within the mixer UI.
+</ul>
+

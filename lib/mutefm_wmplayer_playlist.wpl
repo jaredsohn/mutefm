@@ -1,0 +1,21 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 12.0.7601.17514"/>
+        <title>allmusic</title>
+    </head>
+    <body>
+        <seq>
+            <smartPlaylist version="1.0.0.0">
+                <querySet>
+                    <sourceFilter id="{4202947A-A563-4B05-A754-A1B4B5989849}" name="Music in my library">
+                        <fragment name="Effective Rating">
+                            <argument name="condition">Is At Least</argument>
+                            <argument name="value">Unrated</argument>
+                        </fragment>
+                    </sourceFilter>
+                </querySet>
+            </smartPlaylist>
+        </seq>
+    </body>
+</smil>

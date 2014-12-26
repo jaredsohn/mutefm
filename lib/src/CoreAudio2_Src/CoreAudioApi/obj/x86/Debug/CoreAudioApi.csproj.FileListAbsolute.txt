@@ -1,0 +1,15 @@
+C:\mutefm2\lib\src\CoreAudio2_Src\CoreAudioApi\bin\x86\Debug\CoreAudioApi.dll
+C:\mutefm2\lib\src\CoreAudio2_Src\CoreAudioApi\bin\x86\Debug\CoreAudioApi.pdb
+C:\mutefm2\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\mutefm2\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\CoreAudioApi.dll
+C:\mutefm2\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\CoreAudioApi.pdb
+C:\mutefm3\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\bin\x86\Debug\CoreAudioApi.dll
+C:\mutefm3\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\bin\x86\Debug\CoreAudioApi.pdb
+C:\mutefm3\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\mutefm3\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\CoreAudioApi.dll
+C:\mutefm3\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\CoreAudioApi.pdb
+C:\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\bin\x86\Debug\CoreAudioApi.dll
+C:\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\bin\x86\Debug\CoreAudioApi.pdb
+C:\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\CoreAudioApi.dll
+C:\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\CoreAudioApi.pdb
+C:\mutefm\lib\src\CoreAudio2_Src\CoreAudioApi\obj\x86\Debug\CoreAudioApi.csprojResolveAssemblyReference.cache

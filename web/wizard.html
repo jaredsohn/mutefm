@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  	<title>Getting Started | mute.fm</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" ></meta>
+ 		<link rel="stylesheet" type="text/css" href="./css/jquery-ui-1.8.22.custom.css" />  
+    <style type="text/css">
+			#demoWrapper {
+				padding : 1em;
+				height : 420px;
+				width : 600px;
+				/*border-style: solid; */
+			}
+
+			#fieldWrapper {
+				height: 370px;
+				margin-left : 0.5em;
+				margin-right : 0.5em;
+				margin-bottom : 0.5em;
+				margin-top : 0.5em;
+
+    position:relative;                 /* added */
+
+			}
+
+			#demoNavigation {
+				margin-top : 0.5em;
+				margin-right : 1em;
+				text-align: right;
+
+				position:absolute;                  /* added */
+				bottom:0;                           /* added */
+				right:0;                             /* added */
+			}
+			
+			#data {
+				font-size : 0.7em;
+			}
+
+			input {
+				margin-right: 0.1em;
+				margin-bottom: 0.5em;
+			}
+
+			.input_field_25em {
+				width: 2.5em;
+			}
+
+			.input_field_3em {
+				width: 3em;
+			}
+
+			.input_field_35em {
+				width: 3.5em;
+			}
+
+			.input_field_12em {
+				width: 12em;
+			}
+
+			label {
+				margin-bottom: 0.2em;
+				font-weight: bold;
+				font-size: 0.8em;
+			}
+
+			label.error {
+				color: red;
+				font-size: 0.8em;
+				margin-left : 0.5em;
+			}
+
+			.step span {
+				float: right;
+				font-weight: bold;
+				padding-right: 0.8em;
+				height: 220 px;
+			}
+
+			.navigation_button {
+				width : 70px;
+				margin-bottom: 10px;
+			}
+			
+			#data {
+					overflow : auto;
+			}
+		</style>
+	</head>
+  <body>
+		<div id="demoWrapper">
+			<h5 id="status"></h5>
+			<form id="demoForm" method="post" action="" class="bbq">
+				<div id="fieldWrapper">
+
+				<div id="step1" class="step">
+		 			Step <b>1 of 9</b>: Welcome to mute.fm<br /><hr />
+					<br>
+					You are running mute.fm, a desktop program that mutes your music when you watch a video...automatically.
+					<br><br>
+					Please follow this quick wizard to:<br>
+					<ul>
+					<li> understand a bit about how mute.fm works</li>
+					<li> observe mute.fm in action</li>
+					<li> configure it to work with your music</li>
+					</ul>
+					<i><small>(If you're wondering about the classical music that might have started, it becomes relevant a little later. :) )</small></i><br>
+				</div>
+				<div id="step2" class="step">
+		 			Step <b>2 of 9</b>: How does mute.fm work?<br /><hr />					
+					<br>
+					1. mute.fm constantly monitors the volume for each program (as you would see in the Windows Sound Mixer.)<br>
+					<img src="mixer.png" height=100><br>
+					2. When a program (often a video) makes a sound, mute.fm mutes your music.  For supported players (see <a href="http://www.mute.fm/">mute.fm website</a>) it pauses it.<br><br>
+					3. When the video is no longer making a sound (after a wait of several seconds), mute.fm restores your music.<br>
+				</Div>
+				<div id="step3" class="step">
+		 			Step <b>3 of 9</b>: What are mute.fm's limitations?<br /><hr />
+					<ul>
+					<li>You have to tell mute.fm what your music is up front.</li>
+					<li>If your music is a webpage, you need to run it through a separate browser (mute.fm+ provides one and is recommended since it also makes it possible to pause).</li>
+					<li>You sometimes need to wait a few seconds before your music resumes since mute.fm cannot differentiate between a video finishing, being paused, or being silent for a long time.
+					<li>mute.fm requires Windows 7 or Windows 8 and does not work with Windows 8-style applications.</li>
+					</ul>
+				</div>
+				<div id="step4" class="step">
+		 			Step <b>4 of 9</b>: Observing mute.fm in action - 1 of 2<br /><hr /><br />
+					If this is your first time running this wizard, you should be hearing classical music from YouTube right now.  If not,
+					<ul>
+						<li>Verify that you have an Internet connection.
+						<li>Check that the volume for the hardware and for your system is not zero or muted.
+						<li>Make sure you aren't playing music or hearing sounds via any other programs. (These would show up in mute.fm under 'Active foreground sounds'.)
+					</ul>
+				</div>
+				<div id="step5" class="step">
+		 		Step <b>5 of 9</b>: Observing mute.fm in action - 2 of 2<br /><hr /><br />
+					Once you hear the music, play a video to observe it fade out.  For your convenience, click
+					<a href="http://www.youtube.com/watch?v=9bZkp7q19f0">here</a> to open a YouTube video.<br>
+					<br>
+					You should hear the music fade out before your video started and fade back in after the video ends or is paused.  The mute.fm status bar lets you know what is going on at any time.
+				</div>
+
+
+				<div id="step6" class="step">
+		 		Step <b>6 of 9</b>: Listening to your own music - 1 of 3<br /><hr /><br />
+Go to the mute.fm window.<br><br>
+<img src="mutefmui.png" width=175><br>
+
+It was opened automatically when you first installed; you can also find it by clicking on the <img src="favicon.ico" height=12> icon in the system tray.  Decide what music you want to set up and if it comes from a program or a website.
+				</div>
+				<div id="step7" class="step">
+		 		Step <b>7 of 9</b>: Listening to your own music - 2 of 3<br /><hr /><br />
+If your music comes from a program:
+<ul>
+	<li>Run the program if it isn't already running and get it to play music.</li>
+	<li>Click 'Change...' in the mute.fm window.  It should show up under 'Recent Sounds'.
+	<li>Click 'Set as Background.' to make it your background music.
+</ul>
+				</div>
+				<div id="step8" class="step">
+		 		Step <b>8 of 9</b>: Listening to your own music - 3 of 3<br /><hr /><br />
+
+If your music comes from a website:
+<ul>
+	<li>Click 'Change...' in the main mute.fm window.  
+	<li>Click 'Add'.</li>
+	<li>Entering the URL, configure commands, and click OK.
+	<li>In the sound info editor, click 'Set as Background'.
+	<li>You may need to log into the site or navigate to a subpage.  From the main mute.fm window, click on the website icon to do so.</li>
+</ul>
+Remember to always play this music through mute.fm instead of via your browser.<br>
+
+				</div>
+
+				<div id="step9" class="step">
+		 		Step <b>9 of 9</b>: Further information<br /><hr />
+					<ul>
+						<li>Music with commands can be controlled from mute.fm.</li>
+						<li>Sometimes you need to manually click 'play' when music finishes.</li>
+						<li>Click 'ignore for automute' (<img src="uncheck.png" height=12>) to listen to music while playing games.  You can also set this within the sound info editor.</li>
+						<li>To save bandwidth, if your music is muted for 30 minutes, it will be stopped (and later it may resume at the beginning.)</li>
+					</ul>
+					You can run this wizard again at Help-&gt;Getting Started in the mute.fm window.
+				</div>
+
+				<div id="demoNavigation"> 							
+					<input class="navigation_button" id="back" value="Back" type="reset" />
+					<input class="navigation_button" id="next" value="Next" type="submit" />
+				</div>
+
+</div>
+			</form>
+		</div>
+
+    <script type="text/javascript" src="formwiz/jquery-1.4.2.min.js"></script>		
+    <script type="text/javascript" src="formwiz/jquery.form.js"></script>
+    <script type="text/javascript" src="formwiz/jquery.validate.js"></script>
+    <script type="text/javascript" src="formwiz/bbq.js"></script>
+    <script type="text/javascript" src="formwiz/jquery-ui-1.8.5.custom.min.js"></script>
+    <script type="text/javascript" src="formwiz/jquery.form.wizard.js"></script>
+    
+    <script type="text/javascript">
+			$(function(){
+				$("#demoForm").formwizard({ 
+				 	formPluginEnabled: true,
+				 	validationEnabled: true,
+				 	focusFirstInput : true,
+				 	formOptions :{
+						success: function(data){},
+						beforeSubmit: function(data){ mutefm.closebrowser(); },
+						dataType: 'json',
+						resetForm: false,
+				 	},	
+					textSubmit: 'Finish'
+				 }
+				);
+  		});
+    </script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UiPackage\UiCommands.cs">
+    <Files>
+      <File FileName="c:\mutetunes\src\win\iTunesPlayer.cs" Line="5" Column="3" />
+      <File FileName="c:\mutetunes\src\win\UiPackage\PlayerForm.cs" Line="121" Column="29" />
+      <File FileName="c:\mutetunes\src\shared\OsIntegrationPackage\Operation.cs" Line="73" Column="41" />
+      <File FileName="c:\mutetunes\src\shared\OsIntegrationPackage\MixerWebSocketServer.cs" Line="184" Column="18" />
+      <File FileName="c:\mutetunes\src\win\UiPackage\WinSoundServerSysTray.cs" Line="89" Column="1" />
+      <File FileName="UiPackage\UiCommands.cs" Line="17" Column="1" />
+      <File FileName="c:\mutetunes\src\shared\SmartVolManagerPackage\BgMusicManager.cs" Line="7" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\mutetunes\src\win\UiPackage\UiCommands.cs" line="43" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

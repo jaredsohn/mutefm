@@ -1,0 +1,22 @@
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioSample.exe.config
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioSample.exe
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioSample.pdb
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioApi.dll
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioApi.pdb
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\ResolveAssemblyReference.cache
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\CoreAudioSample.Form1.resources
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\GenerateResource.read.1.tlog
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\GenerateResource.write.1.tlog
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\CoreAudioSample.exe
+Z:\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\CoreAudioSample.pdb
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioSample.exe.config
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioSample.exe
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioSample.pdb
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioApi.dll
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\bin\Debug\CoreAudioApi.pdb
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\CoreAudioSample.Form1.resources
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\CoreAudioSample.exe
+C:\Users\jared\Documents\My Dropbox\code\crossplatform\mutetab\WinSoundServer\CoreAudio2_Src\CoreAudioSample\CoreAudioSample\obj\Debug\CoreAudioSample.pdb

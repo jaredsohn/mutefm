@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9DE243F-C3F3-43CE-8E66-C4D04BFBDA03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MuteFm</RootNamespace>
+    <AssemblyName>mute_fm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS,WEBSOCKETS,NOAWE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS,WEBSOCKETS,NOAWE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS,WEBSOCKETS,NOAWE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>obj\Resources\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Growl.Connector">
+      <HintPath>..\..\lib\Growl.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="Growl.CoreLibrary">
+      <HintPath>..\..\lib\Growl.CoreLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json.Net35">
+      <HintPath>..\..\lib\Newtonsoft.Json.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Threading">
+      <HintPath>..\..\lib\debug\SuperWebSocket\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\shared\Constants.cs" />
+    <Compile Include="..\shared\OsIntegrationPackage\JsonClasses.cs" />
+    <Compile Include="..\shared\SmartVolManagerPackage\BgMusicManager.cs" />
+    <Compile Include="..\shared\SmartVolManagerPackage\SoundEventLogger.cs" />
+    <Compile Include="..\shared\SmartVolManagerPackage\SoundServer.cs" />
+    <Compile Include="CheckForUpdates.cs" />
+    <Compile Include="GrowlInstallHelper.cs" />
+    <Compile Include="obj\Resources\Resource.Designer.cs" />
+    <Compile Include="Resource1.Designer.cs" />
+    <Compile Include="MuteTunesConfig.cs" />
+    <Compile Include="UiPackage\HotkeyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UiPackage\HotkeysForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UiPackage\HotkeysForm.Designer.cs">
+      <DependentUpon>HotkeysForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\MuteFmHotkeyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiPackage\MuteFmHotkeyControl.Designer.cs">
+      <DependentUpon>MuteFmHotkeyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\TimeoutsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UiPackage\TimeoutsForm.Designer.cs">
+      <DependentUpon>TimeoutsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\FgMusicInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiPackage\FgMusicInfoControl.Designer.cs">
+      <DependentUpon>FgMusicInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\InputBoxWithCheck.cs" />
+    <Compile Include="UiPackage\MessageBoxEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UiPackage\MessageBoxEx.Designer.cs">
+      <DependentUpon>MessageBoxEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\MusicConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UiPackage\MusicConfigForm.Designer.cs">
+      <DependentUpon>MusicConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\MusicEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UiPackage\MusicEditForm.Designer.cs">
+      <DependentUpon>MusicEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\KeyboardHook.cs" />
+    <Compile Include="..\shared\OsIntegrationPackage\Operation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\shared\SmartVolManagerPackage\SoundSourceInfo.cs" />
+    <Compile Include="UiPackage\PlayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UiPackage\PlayerForm.Designer.cs">
+      <DependentUpon>PlayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiPackage\UiCommands.cs" />
+    <Compile Include="UiPackage\WinSoundServerSysTray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\shared\WebServer.cs">
+      <Link>WebServer.cs</Link>
+    </Compile>
+    <Compile Include="Util.cs" />
+    <EmbeddedResource Include="obj\Resources\Resource.resx" />
+    <EmbeddedResource Include="Resource1.resx" />
+    <EmbeddedResource Include="UiPackage\HotkeysForm.resx">
+      <DependentUpon>HotkeysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\MuteFmHotkeyControl.resx">
+      <DependentUpon>MuteFmHotkeyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\TimeoutsForm.resx">
+      <DependentUpon>TimeoutsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\FgMusicInfoControl.resx">
+      <DependentUpon>FgMusicInfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\MessageBoxEx.resx">
+      <DependentUpon>MessageBoxEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\MusicConfigForm.resx">
+      <DependentUpon>MusicConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\MusicEditForm.resx">
+      <DependentUpon>MusicEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\PlayerForm.resx">
+      <DependentUpon>PlayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiPackage\WinSoundServerSysTray.resx">
+      <DependentUpon>WinSoundServerSysTray.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\src\CoreAudio2_Src\CoreAudioApi\CoreAudioApi.csproj">
+      <Project>{9F1076AA-63DF-4128-9C10-FD65E425C783}</Project>
+      <Name>CoreAudioApi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\shared\SoundServer\WinCoreAudioApiSoundServer.csproj">
+      <Project>{E9A0E0C2-6341-4945-A508-C5C63DF41BEC}</Project>
+      <Name>WinCoreAudioApiSoundServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="locales\en-US.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\favicon.ico.bmp" />
+    <None Include="Resources\favicon.ico" />
+    <None Include="Resources\burnfm_nextprevtrack.txt" />
+    <None Include="obj\Resources\burnfm_nextprevtrack.txt" />
+    <None Include="obj\Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>del $(ProjectDir)\bin\$(ConfigurationName)\mixer\*.* /Q
+
+mkdir $(ProjectDir)\bin\$(ConfigurationName)\mixer
+
+xcopy /e $(ProjectDir)\..\mixer\*.* $(ProjectDir)\bin\$(ConfigurationName)\mixer\*.* /Q /Y
+
+copy $(ProjectDir)\..\..\lib\$(ConfigurationName)\*.*   $(ProjectDir)\bin\$(ConfigurationName)\*.*  /Y
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
