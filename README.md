@@ -1,4 +1,5 @@
-NOTE: Now open source! (but will not be maintained by author).  Find the code in the fork jaredsohn/mutefm.
+NOTE: Now open source! (but will not be maintained by author).  Find the code in [this fork ](https://github.com/jaredsohn/mutefm).
+
 
 mutefm
 ======
