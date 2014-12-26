@@ -1,14 +1,11 @@
-NOTE: Now open source! (but will not be maintained by author).  Find the code in [this fork ](https://github.com/jaredsohn/mutefm)
-
-
 mutefm
 ======
 
 mute.fm mutes your music while watching videos.  For Windows 7 and Windows 8 Desktop.
 
-This github account exists to provide a public issue tracker: https://github.com/mutefm/mutefm/issues
+You can run this or view the source in Visual Studio 2010 Express (downloadable for free from Microsoft).
 
-It also includes a copy of the InnoSetup installation configuration, for those curious as to what changes the installer makes to your machine: https://github.com/mutefm/mutefm/blob/master/mutefm_setup.iss
+Running/building mute.fm+ requires installing Awesomium.  Running/building mute.fm or mute.fm+ requires installing Innosetup.  Deploying requires placing pscp into C:\\. 
 
 Get the software here: http://www.mute.fm/
 
