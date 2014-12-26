@@ -1,3 +1,5 @@
+NOTE: Now open source! (but will not be maintained by author).  Find the code in the fork jaredsohn/mutefm.
+
 mutefm
 ======
 
