@@ -15,4 +15,4 @@ Twitter: http://www.twitter.com/mutefm
 
 Note: I don't use Windows much anymore (building this was my last project in which I used it), so I am not great at updating this with bug fixes, feature requests, etc. but if you want to dig in the code I'll try to point you in the right direction.
 
-Have a Mac? Check out [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic).
+Have a Mac? Check out [Background Music](https://github.com/kyleneideck/BackgroundMusic).
