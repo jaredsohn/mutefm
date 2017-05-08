@@ -7,7 +7,7 @@ You can run this or view the source in Visual Studio 2010 Express (downloadable 
 
 Running/building mute.fm+ requires installing Awesomium.  Running/building mute.fm or mute.fm+ requires installing Innosetup.  Deploying requires placing pscp into C:\\. 
 
-Get the software here: http://www.mute.fm/
+Get the software here: http://www.mutefm.com/
 
 Email: mutefmapp at gmail.com
 

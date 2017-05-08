@@ -64,7 +64,7 @@ namespace MuteFm
             /*
             if (System.DateTime.Compare(DateTime.Now, new DateTime(MuteFm.Constants.ExpireYear, MuteFm.Constants.ExpireMonth, MuteFm.Constants.ExpireDay, 23, 59, 59, DateTimeKind.Utc)) > 0)
             {
-                MessageBox.Show("This version of mute.fm is beta software and has expired.  Thanks for demoing!  Get a new version at http://www.mute.fm/");
+                MessageBox.Show("This version of mute.fm is beta software and has expired.  Thanks for demoing!  Get a new version at http://www.mutefm.com/");
                 return;
             }*/
 
@@ -254,7 +254,7 @@ namespace MuteFm
             if (System.DateTime.Now > LicenseEnd)
             {
                 //LicenseExpired = true;
-                //MessageBox.Show("This version of mute.fm is beta software and has expired.  Thanks for demoing!  Get a new version at http://www.mute.fm/.");
+                //MessageBox.Show("This version of mute.fm is beta software and has expired.  Thanks for demoing!  Get a new version at http://www.mutefm.com/.");
                 //MuteFm.UiPackage.UiCommands.UnregisterHotkeys();
                 //Application.Exit();
             }

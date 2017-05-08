@@ -67,7 +67,7 @@ namespace MuteFm
         {
             get
             {
-                return "www.mute.fm";
+                return "www.mutefm.com";
             }
         }
 

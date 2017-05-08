@@ -268,7 +268,7 @@ namespace MuteFm.UiPackage
         }
         public static void OnAbout(object sender, EventArgs e)
         {
-            MessageBox.Show(Constants.ProgramName + " v" + Constants.Version + "\n\nContact mutefmapp@gmail.com with any questions or to report issues.\n\nDonations gladly accepted at http://www.mute.fm/donate.html.", "About");
+            MessageBox.Show(Constants.ProgramName + " v" + Constants.Version + "\n\nContact mutefmapp@gmail.com with any questions or to report issues.\n\nDonations gladly accepted at http://www.mutefm.com/donate.html.", "About");
         }
         private void OnNothing(object sender, EventArgs e)
         {

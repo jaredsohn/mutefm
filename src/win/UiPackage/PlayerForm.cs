@@ -294,7 +294,7 @@ namespace MuteFm.UiPackage
         }
         private void documentationMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.mute.fm/support/");
+            System.Diagnostics.Process.Start("http://www.mutefm.com/support/");
         }
         private void gettingStartedToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -588,7 +588,7 @@ namespace MuteFm.UiPackage
 
         private void mDonateToolStripButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.mute.fm/donate.html");
+            System.Diagnostics.Process.Start("http://www.mutefm.com/donate.html");
         }
     }
 }

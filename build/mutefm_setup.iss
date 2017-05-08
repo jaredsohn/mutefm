@@ -9,7 +9,7 @@
 #define MyAppVersion "0.9.14"
 #define MyAppMutex "Global\{{4A850CD5-D080-481F-8DCC-923D214381C4}"
 #define MyAppPublisher "mute.fm"
-#define MyAppURL "http://www.mute.fm"
+#define MyAppURL "http://www.mutefm.com"
 #define MyAppExeName "mute_fm.exe"
 
 [Setup]
@@ -58,8 +58,8 @@ Source: "..\lib\growl_connector_license.txt"; DestDir: "{app}"; Flags: ignorever
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "Run now"; Flags: nowait;  Parameters: "FIRSTTIME"
-;Filename: "http://www.mute.fm/gettingstarted.html"; Flags: shellexec runasoriginaluser
-Filename: "http://www.mute.fm/wizard.html"; Flags: shellexec runasoriginaluser
+;Filename: "http://www.mutefm.com/gettingstarted.html"; Flags: shellexec runasoriginaluser
+Filename: "http://www.mutefm.com/wizard.html"; Flags: shellexec runasoriginaluser
 
 
 

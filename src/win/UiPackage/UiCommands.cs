@@ -50,7 +50,7 @@ namespace MuteFm.UiPackage
                 {
                     try
                     {
-                        _uri = "http://www.mute.fm/track_" + msg.ToLower() + ".html?identity=" + Program.Identity;
+                        _uri = "http://www.mutefm.com/track_" + msg.ToLower() + ".html?identity=" + Program.Identity;
 
                         _browserControl = new System.Windows.Forms.WebBrowser();
                         _browserControl.ScriptErrorsSuppressed = true;
@@ -138,7 +138,7 @@ namespace MuteFm.UiPackage
         public static void ShowGettingStartedWizard()
         {
 #if NOAWE
-            System.Diagnostics.Process.Start("http://www.mute.fm/wizard.html");
+            System.Diagnostics.Process.Start("http://www.mutefm.com/wizard.html");
 #else
             _initWizardForm = new InitWizForm();
             _initWizardForm.UpdateUI();

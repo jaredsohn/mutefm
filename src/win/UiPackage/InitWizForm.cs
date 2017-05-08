@@ -76,8 +76,8 @@ namespace MuteFm.UiPackage
         {
             switch (url)
             {
-                case "http://www.mute.fm/":
-                case "http://www.mute.fm/documentation.html":
+                case "http://www.mutefm.com/":
+                case "http://www.mutefm.com/documentation.html":
                 case "http://www.youtube.com/watch?v=60og9gwKh1o":
                     System.Diagnostics.Process.Start(url);
                     break;
