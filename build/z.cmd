@@ -12,4 +12,4 @@ rmdir ..\src\win\bin\release\mute_fm_web>nul
 pause
 
 "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" mutefm_setup.iss
-copy output\mutefm_setup.exe output\mutefm_setup_0_9_14.exe
+copy output\mutefm_setup.exe output\mutefm_setup_0_9_15.exe

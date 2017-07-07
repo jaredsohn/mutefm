@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("mute.fm")]
 [assembly: AssemblyProduct("mute.fm")]
-[assembly: AssemblyCopyright("Copyright © 2012-2014 mute.fm")]
+[assembly: AssemblyCopyright("Copyright © 2012-2017 mute.fm")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.9.14.0")]
-[assembly: AssemblyFileVersion("0.9.14.0")]
+[assembly: AssemblyVersion("0.9.15.0")]
+[assembly: AssemblyFileVersion("0.9.15.0")]

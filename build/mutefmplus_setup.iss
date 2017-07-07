@@ -6,7 +6,7 @@
 ;Note: Don't worry about setting up extension, browser settings, hiding sndvol, etc. since program itself will do it
 ; for showing in system tray by default, research this: http://social.msdn.microsoft.com/Forums/en/windowscompatibility/thread/fee62eb0-4f68-408c-aec2-82ffdf2ddd69
 #define MyAppName "mute.fm"
-#define MyAppVersion "0.9.14"
+#define MyAppVersion "0.9.15"
 #define MyAppMutex "Global\{{4A850CD5-D080-481F-8DCC-923D214381C4}"
 #define MyAppPublisher "mute.fm"
 #define MyAppURL "http://www.mutefm.com"

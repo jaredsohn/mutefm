@@ -15,4 +15,4 @@ del ..\src\win\bin\release\awesomium_process
 pause
 
 "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" mutefmplus_setup.iss
-copy output\mutefm_setup.exe output\mutefmplus_setup_0_9_14.exe
+copy output\mutefm_setup.exe output\mutefmplus_setup_0_9_15.exe
